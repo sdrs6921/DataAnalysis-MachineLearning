@@ -1,0 +1,17 @@
+결정 트리(Decision Tree)
+ - 직관적으로 이해하기 쉬운 알고리즘
+ - 데이터를 통한 Tree 기반의 분류 규칙 생성
+ - Root Node ~ Decision Node ~ leaf Node
+ - Simple한 구조이지만 강력한 성능을 가지고 있음.
+ - 데이터가 복잡해 질 수록 많은 Decision Node가 생김 -> Depth 증가
+ - 학습 데이터에 대한 Over Fitting으로 이어짐
+ - Hyper parameter 튜닝을 통해 Over Fitting이 이루어지지 않도록 Tree를 규제
+
+ - Decision Tree의 학습
+ 	- Impurity가 최소가 되는 Decision Node 생성
+	- Impurity를 구하는 방법 : 지니 불순도, 엔트로피를 통헤 측정
+	- CART 알고리즘
+ - Decision Tree의 장단점
+ 	- 직관적 - 이해가 쉽고, 윈인 파악 등의 분석이 용이
+	- 피처의 스케일링이나 정규화 등 전처리에 의한 영향도 적음
+	- 학습의 불 안정성
